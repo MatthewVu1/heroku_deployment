@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.port || 3000
+const port = process.env.port || 5000
 const sqlite3 = require('sqlite3').verbose()
 
 // static files
